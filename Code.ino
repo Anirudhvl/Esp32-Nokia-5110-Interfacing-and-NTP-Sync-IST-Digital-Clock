@@ -49,8 +49,8 @@ void digitalClockDisplay()
   lcd.clear();
   // digital clock display of the time
   lcd.setCursor(20,1);
-  lcd.print(hour()+4);
-  printDigits(minute()+30);
+  lcd.print(hour());
+  printDigits(minute());
   printDigits(second());
   lcd.setCursor(20,3);
   lcd.print(day());
